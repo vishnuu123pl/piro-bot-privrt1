@@ -178,7 +178,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖯𝖨𝖱𝖮 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url=f"https://t.me/piroxbots") ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝘔𝘖𝘝𝘐𝘌 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://whatsapp.com/channel/0029Va9mzu6K0IBiu0SEtm2i") ] ] ),
                     
                 )
             except FloodWait as e:
