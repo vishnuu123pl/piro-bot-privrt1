@@ -8,6 +8,8 @@ async def accept_request(client, r):
 
     rm = InlineKeyboardMarkup([[
         InlineKeyboardButton("🎭 𝘑𝘖𝘐𝘕 𝘍𝘖𝘙 𝘔𝘖𝘝𝘐𝘌𝘚 🎭", url=f"https://t.me/MOVIE_GROP")
+    ],[
+                    InlineKeyboardButton("🚫 𝘋𝘖𝘕'𝘛  𝘊𝘓𝘐𝘊𝘒 𝘏𝘌𝘙𝘌 🚫", url=f"http://t.me/Evamaria_V_Bot?start=help")  
     ]])
     
     try:
